@@ -6,7 +6,7 @@
     "scripts": {
         "prestart": "npx eslint .",
         "pre-copy": "cd $CODEBUILD_SRC_DIR && npm run copy.lib base-baileys-memory",
-        "copy.lib": "npm run copy.lib base-baileys-memory"
+        "copy.lib": "npm run copy.lib base-baileys-memory",
         "start": "node app.js"
     },
     "keywords": [],
