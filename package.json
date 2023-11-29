@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "prestart": "npx eslint .",
-    "pre-copy": "npm run copy.lib",
-    "copy.lib": "npm run copy.lib base-baileys-memory",
+    "pre-copy": "npm run copy.lib base-baileys-memory",
     "start": "node app.js"
   },
   "keywords": [],
