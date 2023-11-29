@@ -2,8 +2,11 @@
 const fs = require('fs');
 const path = require('path');
 
+// copy-script.js
 const sourceDir = process.env.CODEBUILD_SRC_DIR;
 const destinationDir = path.join(sourceDir, 'destination');
+const eslintrcPath = path.join(sourceDir, '.eslintrc.js');
+
 
 // Implementa la lógica de copia o cualquier operación que necesites
 // Aquí, simplemente copiamos el contenido de una carpeta a otra
