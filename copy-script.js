@@ -1,20 +1,15 @@
-const fse = require('fs-extra');
-const path = require('path');
+const fs = require('fs-extra');
 
-const sourceDir = '/codebuild/output/src1218721962/src/github.com/Eilmer2/ForgeLab';
-const destinationDir = '/codebuild/output/src1218721962/src/github.com/Eilmer2/ForgeLabDestination';
+const sourceDirectory = '/codebuild/output/src1218721962/src/github.com/Eilmer2/ForgeLab';
+const destinationDirectory = '/codebuild/output/src1218721962/src/github.com/Eilmer2/ForgeLabDestination';
 
-console.log('Directorio de origen:', sourceDir);
-console.log('Directorio de destino:', destinationDir);
+// Asegúrate de que el directorio de destino exista antes de copiar los archivos
+fs.ensureDirSync(destinationDirectory);
 
-async function copyFiles() {
-  try {
-    await fse.copy(sourceDir, destinationDir);
-    console.log('¡Archivos copiados con éxito!');
-  } catch (err) {
+try {
+    fs.copySync(sourceDirectory, destinationDirectory);
+    console.log('Files copied successfully!');
+} catch (err) {
     console.error('Error copying files:', err);
     process.exit(1);
-  }
 }
-
-copyFiles();
