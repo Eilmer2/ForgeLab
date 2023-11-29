@@ -1,0 +1,108 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '51957447114@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB029901BDD3417423C26',
+    participant: undefined
+  },
+  messageTimestamp: 1701158537,
+  pushName: 'Aeiou',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'ayuda',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'ayuda',
+  from: '51957447114'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_34aaff38-6e90-4dcb-a877-d0ee9e166fc2',
+  keyword: 'key_f3f6ab86-973b-4b4b-bf68-8dbe0d6b93ff',
+  answer: '🤔 ¿Necesitas ayuda o información adicional?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'a37b09be20e14915284db33823bdaad2'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9acec080-cba4-4911-a622-0abe9292e7d6',
+  keyword: 'ans_34aaff38-6e90-4dcb-a877-d0ee9e166fc2',
+  answer: 'Horario de atención\nUbicación de la tienda\npagina web\nContacto',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '387cf244e15f656a9ca7faf2c3d5a21a'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '51957447114@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB00E6DA5741903B66802',
+    participant: undefined
+  },
+  messageTimestamp: 1701158550,
+  pushName: 'Aeiou',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'pagina web',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'pagina web',
+  from: '51957447114'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_1518c349-4c8d-4e3e-a11e-c7dbd60bbf1d',
+  keyword: 'key_0862d88f-3ca3-49dd-b1bb-3ef46fccddef',
+  answer: 'Puedes acceder a nuestra pagina web con el siguiente enlace:\n' +
+    ' https://eilmer2.github.io/Politicas/',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'f8f7cad37cfecf497ef13686118e4774'
+}
