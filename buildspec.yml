@@ -1,1 +1,12 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - npm install  # Instala las dependencias del proyecto
+  build:
+    commands:
+      - npm run prestart  # Ejecuta el comando de linting
+      - npm run pre-copy  # Ejecuta el comando de copia
+      - npm start  # Ejecuta la aplicación
 
