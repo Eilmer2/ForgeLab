@@ -7,7 +7,7 @@
     "prestart": "npx eslint .",
     "pre-copy": "node copy-script.js",
     "start": "node app.js"
-}
+},
   "keywords": [],
   "dependencies": {
     "@bot-whatsapp/bot": "latest",
